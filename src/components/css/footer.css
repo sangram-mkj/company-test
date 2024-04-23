@@ -1,0 +1,78 @@
+.footer{
+    background-color: #000000;
+}
+.f-upper{
+    display: flex;
+    justify-content: space-between;
+}
+.f-u-box{
+    border-right: 1px solid #515151;
+    padding: 40px 40px;
+    color: #FFFFFF;
+}
+
+.f-u-4{
+    width: 30%;
+} 
+.f-u-box>img{
+    width: 200px;
+}
+.f-icon-container{
+    display: flex;
+    justify-content: space-between;
+}
+.f-u-box>h3{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.f-u-box>ul{
+    list-style: none;
+    margin-left: 0;
+}
+.f-u-box>ul>li>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+.f-u-box>ul>li{
+    padding: 5px 0px;
+}
+.f-u-box-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.f-u-box-inner>ul{
+    list-style: none;
+    margin-left: 0;
+}
+.f-u-box-inner>ul>li>a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+.f-u-box-inner>ul>li{
+    padding: 5px 0px;
+}
+.f-lower{
+    border-top: 1px solid #515151;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #515151;
+    padding: 20px 100px;
+}
+.f-lower>div{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.f-lower>p{
+    font-size: 18px;
+}
+.f-lower>div>a{
+    color: #515151;
+    font-size: 18px;
+    text-decoration: none;
+}
